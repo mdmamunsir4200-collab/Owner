@@ -1876,10 +1876,10 @@
         font-weight: 400;
       }
       .ct-links {
-        display: flex;
-        flex-direction: column;
-        gap: 0.4rem;
-      }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
       .cl {
         display: flex;
         align-items: center;
@@ -2275,3 +2275,10 @@
           gap: 1rem;
         }
       }
+
+
+@media (max-width: 500px) {
+  .ct-links {
+    grid-template-columns: 1fr;
+  }
+}
