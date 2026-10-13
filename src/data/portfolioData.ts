@@ -286,7 +286,7 @@ export const PROJECTS_DATA: Project[] = [
     tagline: 'Trading-focused web application with real-time financial tracking',
     description:
       'A trading-focused web application built with Angular on the frontend and Express.js on the backend, styled with SCSS. Uses Firebase for backend services and is deployed on Vercel.',
-    image: '/src/assets/images/nextrade_platform.jpg',
+    image: 'https://res.cloudinary.com/ddm3wxdkf/image/upload/v1791885921/Gemini_Generated_Image_h3t81lh3t81lh3t8.jpg',
     category: 'Frontend / Backend',
     technologies: ['Angular', 'Express.js', 'SCSS', 'Firebase', 'Vercel'],
     githubUrl: 'https://github.com/asraful808088',
@@ -307,7 +307,7 @@ export const PROJECTS_DATA: Project[] = [
     tagline: 'Modern cryptocurrency wallet and transaction management platform',
     description:
       'A modern web app built with React.js on the frontend and Django on the backend, styled with Tailwind CSS. Uses PostgreSQL for the database and is deployed on Vercel.',
-    image: '/src/assets/images/chain_hook_wallet.jpg',
+    image: 'https://res.cloudinary.com/ddm3wxdkf/image/upload/v1791885921/Gemini_Generated_Image_984kvb984kvb984k.jpg',
     category: 'Full-Stack',
     technologies: ['React.js', 'Django', 'Tailwind CSS', 'PostgreSQL', 'OAuth', 'Vercel'],
     githubUrl: 'https://github.com/asraful808088',
@@ -328,7 +328,7 @@ export const PROJECTS_DATA: Project[] = [
     tagline: 'Social commerce platform connecting buyers, sellers, and Chain Hook Wallet',
     description:
       'A social commerce web app where sellers and buyers can post listings much like an e-commerce marketplace, with a built-in buy option that connects through to Chain Hook Wallet for secure payment processing. Next.js frontend (Tailwind CSS) with a Go backend, PostgreSQL (Neon) and Redis (Upstash) for data and caching, and Cloudinary for media. Next.js deployed on Vercel, Go server deployed on Render.',
-    image: '/src/assets/images/bigbiz_platform.jpg',
+    image: 'https://res.cloudinary.com/ddm3wxdkf/image/upload/v1791885921/Gemini_Generated_Image_hr6lfyhr6lfyhr6l.jpg',
     category: 'Full-Stack',
     technologies: ['Next.js', 'Go (Gin)', 'PostgreSQL (Neon)', 'Redis (Upstash)', 'Cloudinary', 'Tailwind CSS', 'Vercel', 'Render'],
     githubUrl: 'https://github.com/asraful808088',
