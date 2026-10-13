@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-canvas: #080B14;
+  --color-surface: #0D1220;
+  --color-surface-card: #111827;
+  --color-primary-text: #F5F7FA;
+  --color-secondary-text: #A7B0C0;
+  --color-accent-blue: #4F8CFF;
+  --color-accent-cyan: #35D6E8;
+  --color-accent-violet: #8B5CF6;
+  --color-soft-white: #E8EDF5;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #080B14;
+  color: #F5F7FA;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Subtle tech grid background */
+.bg-tech-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+/* Subtle radial glow layers */
+.radial-glow-cyan {
+  background: radial-gradient(circle at 50% 50%, rgba(53, 214, 232, 0.08), transparent 70%);
+}
+
+.radial-glow-blue {
+  background: radial-gradient(circle at 50% 50%, rgba(79, 140, 255, 0.08), transparent 70%);
+}
+
+.radial-glow-violet {
+  background: radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.07), transparent 70%);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080B14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1B2438;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2D3B59;
+}
